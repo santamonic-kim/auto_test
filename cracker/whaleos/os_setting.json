@@ -1,0 +1,36 @@
+[
+  {
+    "groupName": "헤더",
+    "urls": [
+      "https://brand.naver.com/applestore/products/6791507599",
+      "https://brand.naver.com/decoview/products/556914963"
+    ],
+    "highlightXPath": "//*[@id='pc-gnbWidget']",
+    "level": 2,
+    "testcases": [
+      "네이버, 네이버쇼핑 링크",
+      "전체 서비스 보기 버튼",
+      "관심 스토어, 마이페이지, 장바구니, 네이버 프로필 버튼",
+      "스토어 로고 홈 링크",
+      "스토어 내 상품 검색 확인",
+      "알림받기",
+      "관심고객수",
+      "카테고리, 묻고답하기 등 메뉴"
+    ]
+  },
+  {
+    "groupName": "푸터",
+    "urls": [
+      "https://brand.naver.com/applestore/products/6791507599",
+      "https://brand.naver.com/decoview/products/556914963"
+    ],
+    "highlightXPath": "//*[@id='footer']",
+    "level": 2,
+    "testcases": [
+      "반품 정보 안내 문구 + 판매자 정보 버튼",
+      "판매자 정보 버튼 클릭 시 레이어 노출",
+      "이용약관, 개인정보처리방침 등의 버튼",
+      "회사 정보, 고객센터, 전자금융거래 분쟁처리"
+    ]
+  }
+]  
