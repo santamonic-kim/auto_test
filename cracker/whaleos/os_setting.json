@@ -1,20 +1,14 @@
 [
   {
-    "groupName": "헤더",
+    "groupName": "기기",
     "urls": [
-      "https://smartstore.naver.com/ssg01/products/6542373340",
-      "https://smartstore.naver.com/lotte/products/7493838823",
-      "https://smartstore.naver.com/hareru_/products/6679560008",
-      "https://smartstore.naver.com/attrangs/products/8926862395"
+      "whale://os-settings:"
     ],
-    "highlightXPath": "//*[@id='header']/div",
+    "highlightXPath": "//*[@id='topMenu']/os-settings-menu-item[5]//iron-icon",
     "level": 1,
     "testcases": [
-      "네이버, 네이버쇼핑 링크",
-      "전체 서비스 보기 버튼",
-      "관심 스토어, 마이페이지, 장바구니, 네이버 프로필 버튼",
-      "스토어 로고 홈 링크",
-      "스토어 내 상품 검색 확인"
+      "마우스",
+      "터치패드"
     ]
   }
 ]
